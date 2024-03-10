@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #808000; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            color: #f7ecf8;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            max-width: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 10px;
+        }
+
+        section {
+            text-align: center;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #fff;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        header h1:hover {
+            color: #3498db; 
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Your Website</h1>
+    </header>
+
+    <nav>
+        <div class="logo-container">
+            <img class="logo" src="static/download.jpg" alt="Logo">
+            <h2 style="color: #fff; margin: 0;">Your Website</h2>
+        </div>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="contacts.html">Contacts</a>
+            <a href="social.html">Social Media</a>
+            <a href="contact-form.html">Contact Form</a>
+            <a href="multimedia.html">Multimedia</a>
+        </div>
+    </nav>
+
+    <section>
+        <h2>Contact List</h2>
+        <!-- List of contacts -->
+        <ul>
+            <li>
+                <strong>Name:</strong> John Doe<br>
+                <strong>Email:</strong> john.doe@example.com<br>
+                <strong>Phone:</strong> +1 (555) 123-4567
+            </li>
+            <li>
+                <strong>Name:</strong> Jane Smith<br>
+                <strong>Email:</strong> jane.smith@example.com<br>
+                <strong>Phone:</strong> +1 (555) 987-6543
+            </li>
+            <!-- Add more contacts as needed -->
+        </ul>
+    </section>
+
+    <footer>
+        &copy; 2024 Your Website. All rights reserved.
+    </footer>
+</body>
+
+</html>
